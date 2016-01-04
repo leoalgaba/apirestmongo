@@ -7,7 +7,7 @@ var serietv = new Schema({
 	pais: String,
 	genero: {
 		type: String,
-		enum: ['comedia','fantasia','drama',terror,"sci-fi"];
+		enum: ['comedia','fantasia','drama',"terror","sci-fi"]
 	}
 });
 module.exports = mongoose.model("SerieTV", serietv);
